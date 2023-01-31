@@ -6,6 +6,71 @@
     <title>requisitos funcionais</title>
 </head>
 <body>
-    
+    <h1>Requisitos funcionais</h1>
+    <ul>
+        <li>Login</li>
+        <ul>
+            <li>
+                O sistema permite que o usuário efetue o login com base no seu email e senha
+            </li>
+        </ul>
+        <li>Cadastro</li>
+        <ul>
+            <li>
+                O sistema permite que o usuário registre uma nova conta com base no seu nome, sobrenome, email e senha.
+            </li>
+        </ul>
+        <li>Exibir perfil</li>
+        <ul>
+            <li>
+                O sistema permite que o usuário possa visualizar os dados de sua conta em uma tela específica.
+            </li>
+        </ul>
+        <li>Editar perfil</li>
+        <ul>
+            <li>
+                O sistema permite que o usuário possa atualizar os dados de sua conta ao clicar em um botão específico na tela de perfil
+            </li>
+        </ul>
+        <li>Deletar perfil</li>
+        <ul>
+            <li>
+                O sistema permite  que o usuário possa deletar sua conta e liberar o acesso do seu email para criação de outras contas.            </li>
+        </ul>
+        <li>Criar evento</li>
+        <ul>
+            <li>
+                O  sistema deve ter a funcionalidade de criação de eventos em um determinado dia específico, armazenando seu título, descrição, data e hora.
+            </li>
+        </ul>
+        <li>Editar evento</li>
+        <ul>
+            <li>
+                O sistema deve ter a funcionalidade de edição de eventos, podendo alterar todos os dados armazenados no seu cadastro de evento.
+            </li>
+        </ul>
+        <li>Deletar evento</li>
+        <ul>
+            <li>
+                O sistema deve ter a funcionalidade de remoção dos eventos.
+            </li>
+        </ul>
+    </ul>
+    <h1>Requisitos não funcionais</h1>
+    <ul>
+        <li>É obrigatório ter conexão com a rede para acessar o aplicativo.</li>
+        <li>O aplicativo será compatível com smartphones com o sistema operacional Android.</li>
+        <li>Quando uma conta é criada, vem sem nenhum evento inerente a ela como feriados.</li>
+        <li>O back-end do sistema será inicialmente construído em Python, utilizando o microframework flask</li>
+        <li>O sistema terá o SGDB inicial em MySQL.</li>
+        <li>O front-end do sistema será inicialmente construído em Html, Css e Javascript.</li>
+    </ul>
+    <h1>Regras de Negócio</h1>
+    <ul>
+        <li>Existem dois tipos de contas: contas ativas e contas excluídas. Contas ativas são aquelas que foram criadas e não foram deletadas até o momento. Enquanto contas excluídas são contas ativas que foram deletadas em algum momento. Só pode haver uma conta ativa por email.</li>
+        <li>A Partir da criação da conta, os eventos do usuário vem vazio. Não é colocado previamente os feriados nos eventos dos usuários.</li>
+        <li>Quando uma conta é criada, vem sem nenhum evento inerente a ela como feriados.</li>
+        <li>Todos os eventos criados são pessoais, sem a possibilidade de compartilhar eventos entre os usuários.</li>
+    </ul>
 </body>
 </html>
