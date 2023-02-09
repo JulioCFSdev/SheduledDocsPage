@@ -1,0 +1,94 @@
+body{
+	background-color: #808080;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.box{
+	position: relative;
+	width: 640px;
+	height: 400px;
+	border: solid 3px #808080;
+	margin: auto;
+	margin-top: 5%;
+}
+.back{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #280000;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(40,0,0,.5);
+	top:75px;
+	left:200px;
+	text-align: center;
+}
+.cal{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: #FDFFFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	top:4%;
+	left:9.5%;
+}
+.month{
+	margin: 0;
+}
+.day{
+	margin: 0;
+	font-size: 3.5em;
+}
+.agenda{
+	font-family: 'Shadows Into Light', cursive;
+	margin: 0;
+}
+
+.banner{
+	background-color: #B10F2E;
+	width: 100%;
+	height: 25%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.bannershadow{
+	background-color: transparent;
+	background-image: repeating-linear-gradient(0deg, transparent, transparent 1px, black 1px, transparent 2px);
+	width: 100%;
+	height: 4%;
+}
+
+.pins{
+	width: 10px;
+	height: 50px;
+	background-color: #8B8C8C;
+	border-radius: 20px;
+}
+.pins-l{
+	position: absolute;
+	top: 60px;
+	left: 250px;
+}
+.pins-r{
+	position: absolute;
+	top: 60px;
+	left: 385px;
+}
+
+.btn13 {
+	position: relative;
+	bottom: -350px;
+	left: 253px;
+	background-color: #0088cc;
+	color: #fff;
+	padding: 10px 15px;
+	border: 1px solid #8B8C8C;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.btn13:hover{
+	background-color: #fff;
+	color: #0088cc;
+}
