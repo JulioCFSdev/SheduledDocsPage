@@ -1,30 +1,66 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/style_index.css">
-    <title>SheduleDocument</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solid Template</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Code+Pro" rel="stylesheet" href="static/main.css")}}>
-    <div class="box">
-        <div class="back">
-            <div class="cal">
-                <div class="banner">
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+							<a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
                 </div>
-                <div class="bannershadow">
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Shedule Project</h1>
+	                        <p class="hero-paragraph">
+							Welcome to the documentation landing page for our project on agenda management! We are thrilled to have you here and hope that you will find all the information you need to effectively use our agenda management system.
+							</p>
+							<p class="hero-paragraph">
+							Thank you for choosing our agenda management system, and we look forward to helping you stay organized and on track!
+							</p>
+	                        <div class="hero-cta"><a class="button button-primary" href="/SheduledDocsPage/">Documentation</a><a class="button" href="https://github.com/JulioCFSdev/API-Shedule-Flask">API Github link</a></div>
+						</div>
+						<div class="hero-figure anime-element">
+							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+								<rect width="528" height="396" style="fill:transparent;" />
+							</svg>
+							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+							<div class="hero-figure-box hero-figure-box-05"></div>
+							<div class="hero-figure-box hero-figure-box-06"></div>
+							<div class="hero-figure-box hero-figure-box-07"></div>
+							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+						</div>
+                    </div>
                 </div>
-                <h1 class="month">February</h1>
-                <h1 class="day">09th</h1>
-                <p class="agenda"><strong>Sheduled Document</strong>:</p>
-            </div>
-        </div>
-        <div class="pins pins-l">
-            </div>
-            <a href='/SheduledDocsPage/home.html'><button class="btn13">Clique aqui para</button>
-        <div class="pins pins-r">
-            </div>
-    </div>
+            </section>
+        </main>
+
+
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
